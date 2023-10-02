@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1c0a345df0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Logo.PNG" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>         
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h1>Welcome to my web page. I'm <span>Diego Leon</span></h1>
+      </div>
+    </div>
+  </div>
+  <!------------------About------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Me3.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Chemical engineer with six years of work experience. Working for about a year and a half in research in
+            chemical process laboratories, responsible for preparing solutions and samples, handling equipment,
+            supporting research projects, creating reports, experimental and analytical development and execution. With
+            teaching experience in mathematics, physics, and chemistry in secondary education and providing personalized
+            tutoring for students at various levels. Proficient in administrative tasks, office skills, and
+            English.Based on various engineering projects, I am currently on a programming learning path with the goal
+            of delving into various languages, becoming a full-stack developer, and applying each piece of knowledge to
+            various projects.
+          </p>    
+          <a href="images/CV_DiegoLeón.pdf" download class="btn btn2">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------- Portfolio------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.PNG">
+          <div class="layer">
+            <h3>Portfolio repository</h3>
+            <p>Here you will find a sample of portfolio development, identifying each element used in the GitHub
+              repository.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.PNG">
+          <div class="layer">
+            <h3>Project under construction 2</h3>
+            <p>At the moment, I am enhancing my programming skills, and consequently, I am in the process of developing
+              a new project.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.PNG">
+          <div class="layer">
+            <h3>Project under construction 3</h3>
+            <p>At the moment, I am enhancing my programming skills, and consequently, I am in the process of developing
+              a new project.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------- Contact ---------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>leo191291@hotmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>3184564512</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>        
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="jsFile.js"></script>
+</body>
+</html>
